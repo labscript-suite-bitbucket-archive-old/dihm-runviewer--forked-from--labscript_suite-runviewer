@@ -368,6 +368,10 @@ V</string>
    <addaction name="menuFile"/>
   </widget>
   <action name="actionOpen_Shot">
+   <property name="icon">
+    <iconset>
+    <normaloff>:/qtutils/fugue/plus.png</normaloff>:/qtutils/fugue/plus.png</iconset>
+   </property>
    <property name="text">
     <string>Open Shot</string>
    </property>
@@ -383,6 +387,10 @@ V</string>
    </property>
   </action>
   <action name="actionQuit">
+   <property name="icon">
+    <iconset>
+    <normaloff>:/qtutils/fugue/cross-button.png</normaloff>:/qtutils/fugue/cross-button.png</iconset>
+   </property>
    <property name="text">
     <string>Quit</string>
    </property>

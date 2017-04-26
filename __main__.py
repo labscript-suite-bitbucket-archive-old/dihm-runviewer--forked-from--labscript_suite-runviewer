@@ -222,6 +222,8 @@ class RunViewer(object):
         self.ui.enable_selected_shots.clicked.connect(self._enable_selected_shots)
         self.ui.disable_selected_shots.clicked.connect(self._disable_selected_shots)
         self.ui.add_shot.clicked.connect(self.on_add_shot)
+        self.ui.actionOpen_Shot.triggered.connect(self.on_add_shot)
+        self.ui.actionQuit.triggered.connect(self.ui.close)
         if os.name == 'nt':
             self.ui.newWindow.connect(set_win_appusermodel)
         
